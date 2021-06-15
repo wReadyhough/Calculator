@@ -1,5 +1,5 @@
 
-#include "calculator.h"
+#include "Calculator.h"
 
 
 //Available operators so far: +,-,*,/,(,),%,^
