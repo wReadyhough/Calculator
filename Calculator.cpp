@@ -75,7 +75,7 @@ vector<string> parser(string raw, string previousResult){
             
             //Number directly after a ). This indicates multiplication
             //ex. (5+3)2 would be 16
-            if(parsed[i-1] == ')'){
+            if((i!=0)&&parsed[i-1] == ')'){
                 splitUp.push_back("*");
             }
             
